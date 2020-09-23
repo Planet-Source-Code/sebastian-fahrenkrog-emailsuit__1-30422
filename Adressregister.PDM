@@ -1,0 +1,99 @@
+[Root]
+Most Recent Package=Adress Register
+
+
+[Package|Adress Register|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Projekts\Phonebook\Pack
+
+[Package|Adress Register|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Adress Register|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Adress Register|Files Found]
+
+[Package|Adress Register|Files Released]
+
+[Package|Adress Register|Missing Dependency Information]
+
+[Package|Adress Register|Out-of-Date Dependency Information]
+
+[Package|Adress Register|Files Added]
+D:\Projekts\Phonebook\phonebook.mdb=
+
+[Package|Adress Register|Files Removed]
+
+[Package|Adress Register|Files In Project]
+D:\Projekts\Phonebook\Adressregister.exe=Yes
+C:\WINNT\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\COMDLG32.OCX=Yes
+C:\WINNT\system32\TABCTL32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\Projekts\Phonebook\phonebook.mdb=Yes
+
+[Package|Adress Register|Configure Registry Files]
+Applicable=No
+
+[Package|Adress Register|Configure Remote Servers]
+Applicable=No
+
+[Package|Adress Register|Install Locations]
+D:\Projekts\Phonebook\Adressregister.exe=$(AppPath)
+C:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINNT\system32\TABCTL32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\Projekts\Phonebook\phonebook.mdb=$(AppPath)
+
+[Package|Adress Register|Configure Shared Files]
+Applicable=Yes
+D:\Projekts\Phonebook\Adressregister.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+D:\Projekts\Phonebook\phonebook.mdb=No
+
+[Package|Adress Register|Distribution]
+Type=single
+Size=
+Title=Adress Register
+
+[Package|Adress Register|IconGroups]
+Group0=Knoton´s Developement
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Adress Register|Knoton´s Developement]
+Icon1=Adressregister.exe
+Title1=Adress Register
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Adress Register|Package]
+PackageFolder=D:\Projekts\Phonebook\Pack
+ProjectFolder=D:\Projekts\Phonebook
+ServerSideCab=
+File1=D:\Projekts\Phonebook\Pack\setup.exe
+File2=D:\Projekts\Phonebook\Pack\Setup.Lst
+File3=D:\Projekts\Phonebook\Pack\Adressregister.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

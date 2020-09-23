@@ -1,0 +1,110 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Dokumente und Einstellungen\fufur1\Desktop\Pop3Client\Binary
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+D:\Eigene Dateien\system\ado\msado25.tlb=
+C:\WINNT\system32\iphlpapi.dll=
+C:\WINNT\system32\ws2_32.dll=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\WINNT\system32\RICHTX32.OCX=
+C:\WINNT\system32\Mscomctl.ocx=
+C:\WINNT\system32\COMCTL32.OCX=
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\Dokumente und Einstellungen\fufur1\Desktop\Pop3Client\MailChecker.exe=Yes
+C:\WINNT\system32\msvbvm60.dll=Yes
+C:\WINNT\system32\OLEAUT32.DLL=Yes
+C:\WINNT\system32\OLEPRO32.DLL=Yes
+C:\WINNT\system32\ASYCFILT.DLL=Yes
+C:\WINNT\system32\STDOLE2.TLB=Yes
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\ws2_32.dll=Yes
+C:\WINNT\system32\iphlpapi.dll=Yes
+D:\Eigene Dateien\system\ado\msado25.tlb=Yes
+C:\WINNT\system32\COMCTL32.OCX=Yes
+C:\WINNT\system32\Mscomctl.ocx=Yes
+C:\WINNT\system32\TABCTL32.OCX=Yes
+C:\WINNT\system32\RICHTX32.OCX=Yes
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\Dokumente und Einstellungen\fufur1\Desktop\Pop3Client\MailChecker.exe=$(AppPath)
+C:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\ws2_32.dll=$(WinSysPath)
+C:\WINNT\system32\iphlpapi.dll=$(WinSysPath)
+D:\Eigene Dateien\system\ado\msado25.tlb=$(WinSysPath)
+C:\WINNT\system32\COMCTL32.OCX=$(WinSysPath)
+C:\WINNT\system32\Mscomctl.ocx=$(WinSysPath)
+C:\WINNT\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINNT\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\Dokumente und Einstellungen\fufur1\Desktop\Pop3Client\MailChecker.exe=Yes
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=MailChecker
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=MailChecker
+PrivateGroup0=Wahr
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|MailChecker]
+Icon1=MailChecker.exe
+Title1=MailChecker
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=C:\Dokumente und Einstellungen\fufur1\Desktop\Pop3Client\Binary
+ProjectFolder=C:\Dokumente und Einstellungen\fufur1\Desktop\Pop3Client
+ServerSideCab=
+File1=C:\Dokumente und Einstellungen\fufur1\Desktop\Pop3Client\Binary\setup.exe
+File2=C:\Dokumente und Einstellungen\fufur1\Desktop\Pop3Client\Binary\Setup.Lst
+File3=C:\Dokumente und Einstellungen\fufur1\Desktop\Pop3Client\Binary\MailChecker.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

@@ -1,0 +1,15 @@
+7.528 Lines of Code + 2721 Lines of Comments=10.249 Lines of Code
+
+Complete E-MAil Suit
+
+Features:
+
+-Send E-Mail with multi attachments, HTML formated ...
+-Receive E-Mails with multi attachments and DECODE them
+-All E-Mails are stored in an Access Database (including the Attachments)
+-No OCX for decoding, encoding Mime compatible mails
+-No Winsock.ocx uses pure API Calls!
+-Complete Adressbook for all your adresses
+-Multi language (English, German)
+-Clear and structured code
+-Speed optimised
